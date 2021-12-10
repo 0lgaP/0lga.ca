@@ -1,0 +1,26 @@
+{
+  "name": "javascripting",
+  "description": "Learn JavaScript by adventuring around in the terminal.",
+  "version": "2.7.3",
+  "repository": {
+    "url": "https://github.com/workshopper/javascripting"
+  },
+  "author": "sethvincent",
+  "bin": {
+    "javascripting": "./bin/javascripting"
+  },
+  "main": "./index.js",
+  "preferGlobal": true,
+  "dependencies": {
+    "colors": "^1.3.3",
+    "diff": "^4.0.1",
+    "workshopper-adventure": "^6.0.4"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^14.2.0"
+  },
+  "scripts": {
+    "test": "standard"
+  }
+}
