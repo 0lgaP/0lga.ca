@@ -1,4 +1,3 @@
-
 let prompt = require("prompt-sync")();
 
 // code below (replace this example)
