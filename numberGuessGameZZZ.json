@@ -1,14 +1,6 @@
-[
-  {
-    "name": "Strongbadia Corp",
-    "numberOfEmployees": 1000,
-    "ceo": "Strong Bad",
-    "rating": 3.6
-  },
-  {
-    "name": "Strongmad's Super Gym",
-    "numberOfEmployees": 700,
-    "ceo": null,
-    "rating": 5.0
-  }
-]
+
+let prompt = require("prompt-sync")();
+
+// code below (replace this example)
+let answer = prompt("Guess a number: ");
+console.log("You answered: " + answer);
