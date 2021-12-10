@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Strongbadia Corp",
+    "numberOfEmployees": 1000,
+    "ceo": "Strong Bad",
+    "rating": 3.6
+  },
+  {
+    "name": "Strongmad's Super Gym",
+    "numberOfEmployees": 700,
+    "ceo": null,
+    "rating": 5.0
+  }
+]

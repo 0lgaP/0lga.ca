@@ -1,12 +1,37 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>0lga.ca</title>
 </head>
+
 <body>
-  <header><h1>0lga.ca</h1></header>
-  <p><h3>Welcome and tonight</h3></p>
+  <script type="text/javascript">
+    let companies =
+    `[
+    {
+      "name": "Strongbadia Corp",
+        "numberOfEmployees": 1000,
+          "ceo": "Strong Bad",
+            "rating": 3.6
+    },
+    {
+      "name": "Strongmad's Super Gym",
+        "numberOfEmployees": 700,
+          "ceo": null,
+            "rating": 5.0
+    }
+    ]`
+    console.log(JSON.parse(companies)[0].name);
+  </script>
+  <header>
+    <h1>0lga.ca</h1>
+  </header>
+  <p>
+  <h3>Welcome and tonight</h3>
+  </p>
 </body>
+
 </html>
