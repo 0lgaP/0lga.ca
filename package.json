@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "16": "^0.0.2",
+    "eslint": "^8.4.1",
     "javascripting": "^2.6.1",
     "prompt-sync": "^4.1.6"
   }
